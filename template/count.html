@@ -1,0 +1,9 @@
+<h1>CountWord</h1>
+<a href="{% url 'home' %}">back to home</a>
+{{ word }}
+<h2>frequency
+</h2>
+{% for w,v in wd%}
+{{w}}={{v}}
+<br/>
+{% endfor %}
